@@ -13,6 +13,8 @@ Homepage: http://github.com/fossfreedom/budgie-remix
 
 Package: arc-theme
 Architecture: all
-Depends: gnome-themes-standard, gtk2-engines-murrine
+Depends: gnome-themes-standard, 
+ gtk2-engines-murrine,
+ ${misc:Depends}
 Description:  Arc is a theme for GTK 3, GTK 2 and Gnome-Shell.
  It supports GTK 3 and GTK 2 based desktop environments like Gnome, Unity, Budgie, Pantheon, etc.
