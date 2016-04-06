@@ -81,6 +81,7 @@ stage {
 StEntry {
   padding: 7px;
   caret-size: 1px;
+  caret-color: $fg_color;
   selection-background-color: $selected_bg_color;
   selected-color: $selected_fg_color;
   transition-duration: 300ms;
@@ -987,7 +988,7 @@ StScrollBar {
 }
 
 .aggregate-menu {
-  min-width: 21em;
+  min-width: 23.5em;
   .popup-menu-icon { padding: 0 4px; }
 }
 
@@ -1611,6 +1612,20 @@ StScrollBar {
     height: 2px;
     margin-bottom: 6px;
     background-color: $selected_bg_color;
+  }
+}
+
+#dashtodockContainer {
+  .app-well-app-running-dot {
+    background: none;
+    width: 28px;
+    height: 4px;
+  }
+
+  @each $var in 1, 2, 3, 4 {
+    .running#{$var} .app-well-app-running-dot {
+      background-image: url("common-assets/dash/running#{$var}.svg");
+    }
   }
 }
 
@@ -2302,11 +2317,17 @@ $legacy_icon_size: 24px;
 .lg-dialog {
 
   StEntry {
+    caret-color: $selected_fg_color;
     selection-background-color: $selected_bg_color;
     selected-color: $selected_fg_color;
 
     @include entry(osd);
-    &:focus { @include entry(osd-focus); }
+    &:focus {
+      @include entry(osd-focus);
+
+      selection-background-color: $selected_fg_color;
+      selected-color: $selected_bg_color;
+    }
   }
   .shell-link {
     color: $link_color;
