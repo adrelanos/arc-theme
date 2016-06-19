@@ -8,7 +8,7 @@ Build-Depends: debhelper (>= 9),
  pkg-config,
  libgtk-3-dev
 Standards-Version: 3.9.8
-Homepage: https://github.com/horst3180/arc-theme
+Homepage: http://horst3180.deviantart.com
 
 Package: arc-theme
 Architecture: all
@@ -17,8 +17,8 @@ Depends: gnome-themes-standard,
  ${misc:Depends}
 Description: A flat theme with transparent elements
  Arc is a flat theme with transparent elements for GTK 3, GTK 2 and 
- Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments 
- like Gnome, Unity, Budgie, Pantheon, XFCE, Mate, etc.
+ GNOME-Shell which supports GTK 3 and GTK 2 based desktop environments 
+ like GNOME, Unity, Budgie, Pantheon, XFCE, MATE, etc.
  .
  Arc is available in three variants:
  Arc, Arc-Darker, Arc-Dark
