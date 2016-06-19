@@ -17,7 +17,7 @@ Depends: gnome-themes-standard,
  ${misc:Depends}
 Description: A flat theme with transparent elements
  Arc is a flat theme with transparent elements for GTK 3, GTK 2 and 
- GNOME-Shell which supports GTK 3 and GTK 2 based desktop environments 
+ GNOME Shell which supports GTK 3 and GTK 2 based desktop environments 
  like GNOME, Unity, Budgie, Pantheon, XFCE, MATE, etc.
  .
  Arc is available in three variants:
