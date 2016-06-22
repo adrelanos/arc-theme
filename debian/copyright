@@ -7,18 +7,19 @@ Copyright: 2016, horst3180 <email address hidden>
 License: GPL-3+
 
 Files: common/gnome-shell/3.14/gnome-shell.css
- common/gnome-shell/3.14/sass/_common.scss
- common/gnome-shell/3.14/gnome-shell-dark.css
- common/gnome-shell/3.16/gnome-shell.css
- common/gnome-shell/3.16/sass/_common.scss
- common/gnome-shell/3.16/gnome-shell-dark.css
- common/gnome-shell/3.18/gnome-shell.css
- common/gnome-shell/3.18/sass/_common.scss
- common/gnome-shell/3.18/gnome-shell-dark.css
- common/gnome-shell/3.20/gnome-shell.css
- common/gnome-shell/3.20/sass/_common.scss
- common/gnome-shell/3.20/gnome-shell-dark.css
-Copyright: 2009, 2015 Red Hat, Inc., 2009 Intel Corporation
+  common/gnome-shell/3.14/sass/_common.scss
+  common/gnome-shell/3.14/gnome-shell-dark.css
+  common/gnome-shell/3.16/gnome-shell.css
+  common/gnome-shell/3.16/sass/_common.scss
+  common/gnome-shell/3.16/gnome-shell-dark.css
+  common/gnome-shell/3.18/gnome-shell.css
+  common/gnome-shell/3.18/sass/_common.scss
+  common/gnome-shell/3.18/gnome-shell-dark.css
+  common/gnome-shell/3.20/gnome-shell.css
+  common/gnome-shell/3.20/sass/_common.scss
+  common/gnome-shell/3.20/gnome-shell-dark.css
+Copyright: 2009, Intel Corporation
+  2009, 2015, Red Hat, Inc
 License: LGPL-2.1
 
 Files: debian/*
