@@ -1,3 +1,16 @@
+arc-theme (20160923-1) unstable; urgency=medium
+
+  * New upstream release
+    - GNOME 3.22 support
+    - updates for all supported desktop environments
+    - fix GNOME 3.22 build issue (Closes: #837265)
+  * Packaging Changes
+    - update maintainer email address
+    - update files in debian/copyright
+    - correct DE capitalization issues in debian/control
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 24 Sep 2016 09:09:01 +0100
+
 arc-theme (20160605-2) unstable; urgency=medium
 
   * Include Arc's plank GTK+ option for each theme variant 

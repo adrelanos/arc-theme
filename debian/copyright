@@ -15,9 +15,6 @@ Files: common/gnome-shell/3.14/gnome-shell.css
   common/gnome-shell/3.18/gnome-shell.css
   common/gnome-shell/3.18/sass/_common.scss
   common/gnome-shell/3.18/gnome-shell-dark.css
-  common/gnome-shell/3.20/gnome-shell.css
-  common/gnome-shell/3.20/sass/_common.scss
-  common/gnome-shell/3.20/gnome-shell-dark.css
 Copyright: 2009, Intel Corporation
   2009, 2015, Red Hat, Inc
 License: LGPL-2.1
