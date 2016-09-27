@@ -1,3 +1,15 @@
+arc-theme (TBD-1) unstable; urgency=medium
+
+  * New upstream release
+    - GNOME 3.24 support
+    - updates for all supported desktop environments
+  * Packaging Changes
+    - update metadata to remove non-recommended 
+      homepage field (Closes: #838988)
+    - update homepage url in debian/control
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, xx yyy 2017 09:09:01 +0100
+
 arc-theme (20160923-1) unstable; urgency=medium
 
   * New upstream release
