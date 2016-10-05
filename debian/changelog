@@ -1,14 +1,15 @@
-arc-theme (TBD-1) unstable; urgency=medium
+arc-theme (20161005) unstable; urgency=medium
 
   * New upstream release
-    - GNOME 3.24 support
-    - updates for all supported desktop environments
+    - Fix OSD windows in MATE 1.16
+    - Fix Unity window decorations with GTK 3.20
+    - Minor bugfixes
   * Packaging Changes
-    - update metadata to remove non-recommended 
+    - update debian/upstream/metadata to remove non-recommended 
       homepage field (Closes: #838988)
     - update homepage url in debian/control
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Sat, xx yyy 2017 09:09:01 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 05 Oct 2016 18:38:01 +0100
 
 arc-theme (20160923-1) unstable; urgency=medium
 
