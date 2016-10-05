@@ -1,4 +1,4 @@
-arc-theme (20161005) unstable; urgency=medium
+arc-theme (20161005-1) unstable; urgency=medium
 
   * New upstream release
     - Fix OSD windows in MATE 1.16
