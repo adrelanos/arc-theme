@@ -1,3 +1,15 @@
+arc-theme (20161119-1) unstable; urgency=medium
+
+  * New upstream release
+    - Cinnamon 3.2
+    - Bugfixes
+  * Packaging Changes
+    - updated David Mohammed email address in debian/copyright
+    - debian/control changed vcs location to updated UbuntuBudgie repo
+    - debian/control use debhelper v10
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 23 Nov 2016 19:03:43 +0000
+
 arc-theme (20161005-1) unstable; urgency=medium
 
   * New upstream release
