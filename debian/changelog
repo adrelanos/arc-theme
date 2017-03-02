@@ -1,3 +1,14 @@
+arc-theme (20170302-1) unstable; urgency=medium
+
+  * New upstream release
+    - Cinnamon 3.2 fixes
+    - Fix frame borders with GTK+3.22.9
+    - Small bugfixes
+  * Packaging Changes
+    - update copyright year from 2016 to 2016-2017
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 02 Mar 2017 20:37:05 +0000
+
 arc-theme (20161119-1) unstable; urgency=medium
 
   * New upstream release

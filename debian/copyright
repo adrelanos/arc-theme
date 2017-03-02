@@ -3,7 +3,7 @@ Upstream-Name: arc-theme
 Source: https://github.com/horst3180/arc-theme
 
 Files: *
-Copyright: 2016, horst3180 <email address hidden>
+Copyright: 2016-2017, horst3180 <email address hidden>
 License: GPL-3+
 
 Files: common/gnome-shell/3.14/gnome-shell.css
@@ -20,7 +20,7 @@ Copyright: 2009, Intel Corporation
 License: LGPL-2.1
 
 Files: debian/*
-Copyright: 2016, David Mohammed <fossfreedom@ubuntu.com>
+Copyright: 2016-2017, David Mohammed <fossfreedom@ubuntu.com>
 License: GPL-3+
 
 License: GPL-3+
