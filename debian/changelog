@@ -6,6 +6,7 @@ arc-theme (20170302-1) unstable; urgency=medium
     - Small bugfixes
   * Packaging Changes
     - update copyright year from 2016 to 2016-2017
+    - update watch to include upstream signed signature
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 02 Mar 2017 20:37:05 +0000
 
