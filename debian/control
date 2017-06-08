@@ -15,6 +15,7 @@ Package: arc-theme
 Architecture: all
 Depends: gnome-themes-standard, 
  gtk2-engines-murrine,
+ gtk2-engines-pixbuf,
  ${misc:Depends}
 Description: Flat theme with transparent elements
  Arc is a flat theme with transparent elements for GTK+ 3, GTK+ 2 and 
