@@ -1,3 +1,18 @@
+arc-theme (20180715-1) unstable; urgency=medium
+
+  * New upstream version 20180715
+  * patch 0001-Prepare-for-GNOME-3.30-and-Gtk-3.24-99-100.patch
+    - build for GTK+3.24 (Closes: #908210)
+  * Packaging Changes
+    - control: Bump Standards-Version; rules made more verbose
+    - control: Revise build-dependencies to reflect upstream changes
+    - control: Add GTK+ runtime dependency to reflect addition of
+      3.24 patch addition
+    - control: Update runtime dependency to reflect new updated GNOME
+      package name
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 7 Sep 2018 12:16:50 +0100
+
 arc-theme (20180114-1) unstable; urgency=medium
 
   * New upstream release
