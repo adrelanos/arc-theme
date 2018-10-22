@@ -1,3 +1,14 @@
+arc-theme (20181022-1) unstable; urgency=medium
+
+  * New upstream release
+  * Drop path 0001-Prepare-for-GNOME-3.30-and-Gtk-3.24-99-100.patch since
+    now incorporated in the release
+  * Packaging Changes
+    - rules add override to build theme with current unstable version of
+      gnome-shell
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 22 Oct 2018 19:44:08 +0100
+
 arc-theme (20180715-1) unstable; urgency=medium
 
   * New upstream version 20180715
