@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 11),
  sassc,
  inkscape,
  optipng
-Standards-Version: 4.2.1
+Standards-Version: 4.3.0
 Homepage: https://github.com/nicohood/arc-theme
 Vcs-Browser: https://github.com/UbuntuBudgie/arc-theme/tree/debian
 Vcs-Git: https://github.com/UbuntuBudgie/arc-theme -b debian

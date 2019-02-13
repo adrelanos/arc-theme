@@ -1,3 +1,14 @@
+arc-theme (20190213-1) unstable; urgency=medium
+
+  * New upstream release
+  * Packaging Changes
+    - Control: bump StandardsVersion - no changes required
+    - Copyright: update copyright years to 2019
+    - upstream/signing-key.asc re-export minimal key to resolve lintian
+      issue
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 13 Feb 2019 19:17:50 +0000
+
 arc-theme (20181022-1) unstable; urgency=medium
 
   * New upstream release
