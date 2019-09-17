@@ -1,3 +1,31 @@
+arc-theme (20190917-1) unstable; urgency=medium
+
+  * New upstream release
+    - Allow builds against gnome-shell 3.34
+    - Refactor gnome-shell 3.32 code
+        Removes redundant selectors/styling (i.e. styling that is no longer
+        required in newer gnome shell versions), and replaces with newer
+        selectors/styling (modifying to match Arc styling where necessary)
+        Integrates styling from the default gnome shell theme into the Arc
+        shell theme. Because the user shell theme (Arc in this case) is
+        "overlaid" over the default shell theme, this is styling that was
+        being "pulled in" anyway.
+        Add full shadows to panel dropdown menus
+    - InfoBar colors should respect type
+    - Remove border from stackswitcher
+    - Don't hardcode LightDM font-size
+    - XFCE 4.14 panel styling fixes
+  * Packaging Changes
+    - Control: Update VCS fields for upstream name change
+    - Control & Compat: Bump StandardsVersion - no changes required
+    - Control: dependency update gnome-themes-extra (Closes: #892033)
+      (this reflects the change made in v20180715)
+    - upstream/metadata: Update for upstream name change
+    - upstream/signing-key.asc: Update for maintainer signing key
+    - watch: update for upstream name change
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 17 Sep 2019 20:47:17 +0100
+
 arc-theme (20190213-1) unstable; urgency=medium
 
   * New upstream release
