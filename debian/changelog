@@ -1,3 +1,27 @@
+arc-theme (20190917+git20200328-1) unstable; urgency=medium
+
+  * New release
+    - tarball manually created from new upstream:
+      https://github.com/jnsh/arc-theme commit
+      3eca62256a637a87c6e1d1e39c33b0c629cd3faa
+      New upstream will be releasing a tarball formally later.
+      Debian version based on previous upstream release + new upstream git
+      commit date.
+      This release resolve FTBFS (Closes: #954707)
+  * Packaging Changes
+    - update rules to specify cinnamon version and update gnome-shell
+      version
+    - control: bump Standards-Version - no changes required
+    - control: update description to reflect Arc-Lighter addition
+    - control: update homepage for the new upstream
+    - Remove compat - replace with debhelper-compat in control
+    - watch: update for new upstream
+    - copyright: update authors to reflect new upstream
+    - upstream: remove signing key from previous upstream
+    - upstream/metadata: update to reflect new upstream
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 30 Mar 2020 16:06:12 +0100
+
 arc-theme (20190917-1) unstable; urgency=medium
 
   * New upstream release
