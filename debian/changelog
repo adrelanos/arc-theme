@@ -1,3 +1,10 @@
+arc-theme (20190917+git20200328-2) unstable; urgency=medium
+
+  * Transition for GNOME 3.36
+    - rules updated to build against gnome-shell 3.36
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 13 Apr 2020 10:27:55 +0100
+
 arc-theme (20190917+git20200328-1) unstable; urgency=medium
 
   * New release
