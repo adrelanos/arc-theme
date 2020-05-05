@@ -1,6 +1,7 @@
 arc-theme (20190917+git20200328-3) UNRELEASED; urgency=medium
 
   * Set field Upstream-Contact in debian/copyright.
+  * Use canonical URL in Vcs-Git.
 
  -- Debian Janitor <janitor@jelmer.uk>  Tue, 05 May 2020 07:18:20 +0000
 
