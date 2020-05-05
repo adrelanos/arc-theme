@@ -1,11 +1,12 @@
-arc-theme (20190917+git20200328-3) UNRELEASED; urgency=medium
+arc-theme (20190917+git20200328-3) unstable; urgency=medium
 
+  [ Debian Janitor ]
   * Set field Upstream-Contact in debian/copyright.
   * Use canonical URL in Vcs-Git.
   * Remove obsolete fields Contact, Name from debian/upstream/metadata
     (already present in machine-readable debian/copyright).
 
- -- Debian Janitor <janitor@jelmer.uk>  Tue, 05 May 2020 07:18:20 +0000
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 05 May 2020 21:34:52 +0100
 
 arc-theme (20190917+git20200328-2) unstable; urgency=medium
 
