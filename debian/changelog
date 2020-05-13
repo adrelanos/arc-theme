@@ -1,3 +1,14 @@
+arc-theme (20200513-1) unstable; urgency=medium
+
+  * New upstream release
+    - Updated themes to support latest desktop versions.
+    - Added Arc-Lighter variant, that has no dark elements.
+    - Added Openbox theme.
+    - Enabled disabling transparency on the GNOME Shell theme.
+    - Numerous small fixes and improvements all around.
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 13 May 2020 21:53:17 +0100
+
 arc-theme (20190917+git20200328-3) unstable; urgency=medium
 
   [ Debian Janitor ]
