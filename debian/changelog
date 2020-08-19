@@ -1,3 +1,30 @@
+arc-theme (20200819-1) unstable; urgency=medium
+
+  * New upstream release
+    - Removed openbox theme. It remains available from a separate repository
+    - GNOME Shell
+      Increase default font size for 3.36 and later
+      Fix OpenWeather extension on 3.36
+      Various small fixes and updates
+    - Cinnamon
+      Update to support versions up to 4.6
+      Allow changing font family with 4.6 and later
+      Grouped window list styling improvements
+      Various fixes and updates
+    - Metacity
+      Improve consistency with dialog decorations
+    - GTK 3
+      Fix levelbar min-width and min-height
+      Fix libhandy-0.0.13 ViewSwitcherBar padding
+      Fix corner rounding on stacked headerbars
+      Style xfce4-genmon-plugin bar backgrounds consistently
+      Various small fixes
+  * Packaging Changes
+    - control: bump debhelper version
+    - rules: cinnamon 4.6 compile option
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 19 Aug 2020 09:10:42 +0100
+
 arc-theme (20200513-1) unstable; urgency=medium
 
   * New upstream release

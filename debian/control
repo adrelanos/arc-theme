@@ -2,8 +2,8 @@ Source: arc-theme
 Section: misc
 Priority: optional
 Maintainer: David Mohammed <fossfreedom@ubuntu.com>
-Build-Depends: debhelper (>= 12),
- debhelper-compat (= 12),
+Build-Depends: debhelper (>= 13),
+ debhelper-compat (= 13),
  dh-buildinfo,
  pkg-config,
  libgtk-3-dev,
