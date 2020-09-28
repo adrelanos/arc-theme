@@ -3,9 +3,6 @@ ACLOCAL_AMFLAGS = -I m4
 EXTRA_DIST = \
 	README.md \
 	HACKING.md \
-	autogen.sh \
-	gulpfile.js \
-	package.json \
-	.nvmrc
+	autogen.sh
 
-SUBDIRS = common extra
+SUBDIRS = common

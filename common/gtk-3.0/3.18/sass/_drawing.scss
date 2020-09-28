@@ -24,7 +24,7 @@
   // focused entry
   //
     color: $text_color;
-    border-color: if($variant=='light', $selected_bg_color, $button_border);
+    border-color: if($variant!='dark', $selected_bg_color, $button_border);
     background-color: $entry_bg;
     background-image: linear-gradient(to bottom, $entry_bg);
 
@@ -64,7 +64,7 @@
   // focused header-bar entry
   //
     color: $selected_fg_color;
-    border-color: if($darker=='false' and $variant=='light', $selected_bg_color, transparent);
+    border-color: if($variant=='light' or $variant=='lighter', $selected_bg_color, transparent);
     background-image: linear-gradient(to bottom, $selected_bg_color);
   }
 
@@ -108,12 +108,12 @@
 
 // Buttons
 
-@mixin button($t, $actionb_color:red) {
+@mixin button($t, $actionb_bg:red, $actionb_fg: green) {
 //
 // Button drawing function
 //
 // $t:    button type,
-// $actionb_color: used for destructive and suggested action buttons
+// $actionb_bg, $actionb_fg: used for destructive and suggested action buttons
 
   @if $t==normal {
   //
@@ -142,7 +142,7 @@
     color: $selected_fg_color;
     outline-color: transparentize($selected_fg_color, 0.7);
 
-    border-color: if($variant=='light', $selected_bg_color, $button_border);
+    border-color: if($variant!='dark', $selected_bg_color, $button_border);
     background-color: $selected_bg_color;
   }
 
@@ -197,7 +197,7 @@
   //
     color: $selected_fg_color;
     outline-color: transparentize($selected_fg_color, 0.7);
-    border-color: if($darker=='false' and $variant=='light', $selected_bg_color, transparent);
+    border-color: if($variant=='light' or $variant=='lighter', $selected_bg_color, transparent);
     background-color: $selected_bg_color;
   }
 
@@ -266,10 +266,10 @@
   //
     background-clip: border-box;
 
-    color: $selected_fg_color;
-    outline-color: transparentize($selected_fg_color, 0.7);
-    background-color: $actionb_color;
-    border-color: $actionb_color;
+    color: $actionb_fg;
+    outline-color: transparentize($actionb_fg, 0.7);
+    background-color: $actionb_bg;
+    border-color: $actionb_bg;
   }
 
   @else if $t==undecorated {
