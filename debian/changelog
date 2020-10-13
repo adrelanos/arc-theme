@@ -1,4 +1,4 @@
-arc-theme (20201013-1) UNRELEASED; urgency=medium
+arc-theme (20201013-1) unstable; urgency=medium
 
   * New upstream release
     - GNOME Shell:
@@ -13,7 +13,7 @@ arc-theme (20201013-1) UNRELEASED; urgency=medium
       Minor color adjustments
   * Drop public color patch since now in the new release
 
--- David Mohammed <fossfreedom@ubuntu.com>  Tue, 13 Oct 2020 20:16:21 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 13 Oct 2020 21:11:55 +0100
 
 arc-theme (20200819-2) unstable; urgency=medium
 
@@ -22,8 +22,8 @@ arc-theme (20200819-2) unstable; urgency=medium
     views - for example gnome-terminal (Closes: #970988)
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 28 Sep 2020 18:12:34 +0100
- 
- arc-theme (20200819-1) unstable; urgency=medium
+
+arc-theme (20200819-1) unstable; urgency=medium
 
   * New upstream release
     - Removed openbox theme. It remains available from a separate repository
