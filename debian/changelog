@@ -1,3 +1,14 @@
+arc-theme (20201013-2) unstable; urgency=medium
+
+  * Bug-fix release
+    - Add build support for Cinnamon 4.8
+      0001-cinnamon-Support-version-4.8.patch
+  * Packaging Changes
+    - rules: build depends on GNOME-Shell 3.38 and
+      Cinnamon 4.8 (Closes: #980734)
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 21 Jan 2021 13:24:44 +0000
+
 arc-theme (20201013-1) unstable; urgency=medium
 
   * New upstream release

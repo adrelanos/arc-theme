@@ -5,4 +5,4 @@ export DH_VERBOSE = 1
 	dh $@
 
 override_dh_auto_configure:
-	dh_auto_configure -- --with-gnome-shell=3.36 --with-cinnamon=4.6
+	dh_auto_configure -- --with-gnome-shell=3.38 --with-cinnamon=4.8
