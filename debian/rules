@@ -5,4 +5,8 @@ export DH_VERBOSE = 1
 	dh $@
 
 override_dh_auto_configure:
-	dh_auto_configure -- --with-gnome-shell=3.38 --with-cinnamon=4.8
+	dh_auto_configure -- -Dgnome_shell_version=40 -Dcinnamon_version=4.8
+
+override_dh_fixperms:
+	dh_fixperms
+	find debian/ -name "*.gresource" -exec chmod 644 {} +

@@ -1,3 +1,20 @@
+arc-theme (20210412-0ubuntu1) impish; urgency=medium
+
+  * New upstream release
+    - Update for GNOME 40
+    - hide border around user avatars
+    - Fix nautilus path bar button border radius when button is only child
+    - Don't hardcode mate-panel tray icon size
+    - Add menu, stick and shade button icons for metacity
+  * Packaging Changes
+    - control: meson build system dependencies - remove autotools
+    - control: bump StandardsVersion - no changes required
+    - d/p: remove existing patches
+    - rules: build for GNOME 40
+    - rules: add fixperms for gresource executables
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 17 Jul 2021 11:37:15 +0100
+
 arc-theme (20201013-2) unstable; urgency=medium
 
   * Bug-fix release
