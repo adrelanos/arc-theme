@@ -1,4 +1,4 @@
-arc-theme (20210412-0ubuntu1) impish; urgency=medium
+arc-theme (20210412-1) unstable; urgency=medium
 
   * New upstream release
     - Update for GNOME 40
@@ -12,8 +12,9 @@ arc-theme (20210412-0ubuntu1) impish; urgency=medium
     - d/p: remove existing patches
     - rules: build for GNOME 40
     - rules: add fixperms for gresource executables
+  * 
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 17 Jul 2021 11:37:15 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 19 Sep 2021 18:11:38 +0100
 
 arc-theme (20201013-2) unstable; urgency=medium
 
