@@ -1,3 +1,20 @@
+arc-theme (20211018-1) UNRELEASED; urgency=medium
+
+  * New upstream release
+    - GTK 4.2 compatibility
+    - Update libhandy style
+    - Add support for GNOME Shell 41
+    - Add support for Cinnamon v5.0
+  * Packaging Changes
+    - Control: Add libgtk-4-dev, cinnamon and gnome-shell to build
+      dependencies to allow arc-theme to auto-determine which version to
+      build for
+    - Rules: Remove gnome-shell and cinnamon specific build info
+    - Copyright: Update copyright years
+    - Control: Standards-Version 4.6.0 - no changes required
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 18 Oct 2021 19:46:07 +0100
+
 arc-theme (20210412-1) unstable; urgency=medium
 
   * New upstream release
