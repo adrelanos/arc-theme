@@ -1,4 +1,4 @@
-arc-theme (20211018-1) UNRELEASED; urgency=medium
+arc-theme (20211018-1) unstable; urgency=medium
 
   * New upstream release
     - GTK 4.2 compatibility
