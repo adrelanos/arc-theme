@@ -24,9 +24,10 @@ Depends: gnome-themes-extra,
  gtk2-engines-pixbuf,
  ${misc:Depends}
 Description: Flat theme with transparent elements
- Arc is a flat theme with transparent elements for GTK+ 3, GTK+ 2 and
- GNOME Shell which supports GTK+ 3 and GTK+ 2 based desktop environments
- like GNOME, Unity, Budgie, Pantheon, Xfce, MATE, etc.
+ Arc is a flat theme with transparent elements for GTK+4, GTK+ 3,
+ GTK+ 2 and GNOME Shell which supports GTK+ 3 and GTK+ 2 based
+ desktop environments like GNOME, Unity, Budgie, Pantheon, Xfce,
+ MATE, Cinnamon, etc.
  Arc also includes a GTK+ theme for Plank.
  .
  Arc is available in four variants:
