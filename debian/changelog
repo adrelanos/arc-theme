@@ -9,6 +9,7 @@ arc-theme (20211018-1) UNRELEASED; urgency=medium
     - Control: Add libgtk-4-dev, cinnamon and gnome-shell to build
       dependencies to allow arc-theme to auto-determine which version to
       build for
+    - Control: Update description for GTK+ 4 and Cinnamon
     - Rules: Remove gnome-shell and cinnamon specific build info
     - Copyright: Update copyright years
     - Control: Standards-Version 4.6.0 - no changes required
