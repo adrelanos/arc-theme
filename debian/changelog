@@ -1,3 +1,13 @@
+arc-theme (20220223-1) unstable; urgency=medium
+
+  * New upstream release
+    Add styling for libadwaita widgets
+    Various fixes and improvements as described on the upstream
+    release tag
+    Fix dash-to-dock focused application icon mouseover background
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 23 Feb 2022 19:39:44 +0000
+
 arc-theme (20220105-1) unstable; urgency=medium
 
   * New upstream release
