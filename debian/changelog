@@ -1,3 +1,18 @@
+arc-theme (20220405-1) unstable; urgency=medium
+
+  * New upstream release
+    GNOME Shell theme:
+    Update theme for GNOME Shell 42
+    GTK 3 theme:
+    Nautilus path-bar improvements
+    Style updated path-bar in Nautilus 42
+    Various fixes and improvements as described on the upstream
+    release tag
+    GTK 4 theme:
+    Add libadwaita public color definitions
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 05 Apr 2022 22:31:22 +0100
+
 arc-theme (20220223-1) unstable; urgency=medium
 
   * New upstream release
